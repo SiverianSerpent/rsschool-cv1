@@ -1,4 +1,5 @@
 # Denis Kopych 
+![Image](https://ibb.co/LkmF3F5)
 
 ### Junior Frontend Developer
 ___
@@ -20,5 +21,33 @@ ___
 * Git, GitHub
 * VS Code, 
 * Adobe Photoshop
+
+___
+### Code Example:
+**Peak array index KATA from CODEWARS:** *Given an array of ints, return the index such that the sum of the elements to the right of that index equals the sum of the elements to the left of that index. If there is no such index, return -1. If there is more than one such index, return the left-most index.*
+```
+function peak(arr) {
+
+  for (let i = 1; i < arr.length - 1; i++) {
+    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+    if (leftSum === rightSum) {
+      return i;
+    }
+  }
+  return -1;
+}
+```
+
+___
+### Courses:
+* JavaScript Manual on learnjavascript.ru (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+___
+### Languages:
+* English - Intermediate
+* Russian - Native
+* Ukrainian - Native
 
 
