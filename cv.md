@@ -1,5 +1,6 @@
 # Denis Kopych 
-![Image](https://ibb.co/LkmF3F5)
+
+![Image](https://i.ibb.co/k4CnDV0/IMG-9414.jpg)
 
 ### Junior Frontend Developer
 ___
