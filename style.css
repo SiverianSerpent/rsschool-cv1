@@ -468,3 +468,8 @@ footer {
     gap: 2px;
     align-items: center;
 }
+
+.skills-ul { 
+    display: flex;
+    flex-direction: row;
+}
