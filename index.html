@@ -4,12 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/rsschool-cv/style.css">
+    <title>CV#3 Kopych</title>
 </head>
 <body>
     <header>
+        <div class="header__container">
+            <div class="header__leftside">
+                <div class="header__gradientbar">
+                    <p class="header__contacts">Contacts</p>
+                    <img src="/rsschool-cv/source/icons/telegram.svg" alt="telegram-logo" width="27" height="27">
+                    <img src="/rsschool-cv/source/icons/icons8-gmail.svg" alt="email-logo" width="27" height="27">
+                    <img src="/rsschool-cv/source/icons/github.svg" alt="github-logo" width="27" height="27">
+                    <img src="/rsschool-cv/source/icons/discord.svg" alt="discord-logo" width="27" height="27">
+                </div>
+                <div class="header__content">
+                    <figure class="header__myphoto">
+                        <img src="/rsschool-cv/source/image/1223322.jpg" alt="MyAvatar" height="220" width="220" class="header__myphoto1">
+                    </figure>
+                    <div class="header__navcontacts">
+                        <ul class="header__ul" id="contacts">
+                            <li>
+                                <p class="header__ul-bold">Telegram</p>
+                                <p class="header__ul-normal">@siverianserpent</p>
+                            </li>
+                            <li>
+                                <p class="header__ul-bold">Mail</p>
+                                <p class="header__ul-normal">denis.kopich@gmail.com</p>
+                            </li>
+                            <li>
+                                <p class="header__ul-bold">GitHub profile</p>
+                                <p class="header__ul-normal"><a href="https://github.com/SiverianSerpent" class="link-github">https://github.com/SiverianSerpent</a></p>
+                            </li>
+                            <li>
+                                <p class="header__ul-bold">Discord</p>
+                                <p class="header__ul-normal">SiverianSerpent#9784</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="header__rightside">
+                <nav class="header__navigation">
+                    <ul class="navigation">
+                        <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li><a href="#about-me" class="nav-link">About Me</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#languages" class="nav-link">Languages</a></li>
+                        <li><a href="#courses" class="nav-link">Courses</a></li>
+                        <li><a href="#code1" class="nav-link">Code</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                    </ul>
+                </nav>
+                <h1 class="header__fio">
+                    <span>Denis</span>
+                    <span>Kopych</span>
+                </h1>
+                <h2 class="header__job">
+                    Junior Javascript Developer
+                </h2>
+                <h2 class="h2" id="about-me">
+                    About Me
+                </h2>
+                <div class="header__about-me">
+                    I am 22 years old, living in Ukraine, in Chernihiv city. I have been studying at Chernihiv National University of Technology for (the past) 4 years. After my education I realized that I want to do something another in my life. And that’s why i started learning programming: viewing YouTube, reading books about it. After few month I found the RS-School Courses, and now I’m here.
+                </div>
+            </div>
+        </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <div class="main__leftside">
+            <div class="main__skills">
+                <h2 class="h2" id="skills">
+                    Skills
+                </h2>
+                <div class="skillsicons">
+                    <img src="/rsschool-cv/source/icons/icons8-html-5.svg" alt="html-5" height="50" width="50">
+                    <img src="/rsschool-cv/source/icons/icons8-css3.svg" alt="ccs-3" height="50" width="50">
+                    <img src="/rsschool-cv/source/icons/icons8-javascript.svg" alt="javascript" height="50" width="50">
+                    <img src="/rsschool-cv/source/icons/icons8-git.svg" alt="git" height="50" width="50">
+                    <img src="/rsschool-cv/source/icons/icons8-github.svg" alt="github" height="50" width="50">
+                    <img src="/rsschool-cv/source/icons/icons8-adobe-photoshop.svg" alt="photoshop" height="50" width="50">
+                </div>
+            </div>
+            <div class="main__languages">
+                <h2 class="h2" id="languages">
+                    languages
+                </h2>
+                <ul class="main__languages2">
+                    <li>
+                    English - Intermediate
+                    </li>
+                    <li>
+                    Russian - Native
+                    </li>
+                    <li>
+                    Ukrainian - Native
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main__rightside">
+            <div class="main__courses">
+                <h2 class="h2" id="courses">Courses</h2>
+                <ul class="courses-ul">
+                    <li class="courses"><span class="courses-title">RS Schools</span> - «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    <li class="courses"><span class="courses-title">Code Basics</span> - HTML for begginers</li>
+                    <li class="courses"><span class="courses-title">Code Basics</span> - CSS for begginers</li>
+                    <li class="courses"><span class="courses-title">Code Basics</span> - JavaScript for begginers (in progress)</li>
+                    <li class="courses">JavaScript Manual on learnjavascript.ru (in progress)</li>
+                </ul>
+            </div>
+            <div class="main__rightbot">
+                <div class="main__code" id="code">
+                    <h2 class="h3" id="code1">Code</h2>
+                    <code>
+                        let sum = function(a, b) { <br>
+                        return a + b;<br>
+                        };<br>
+                    </code>
+                </div>
+                <div class="main__projects">
+                    <h2 class="h3" id="projects">Projects</h2>
+                    <p class="main__cv">CV#1: <a href="https://siverianserpent.github.io/rsschool-cv/cv" id="projectlink">https://siverianserpent.github.io/rsschool-cv/cv</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="rs-school">
+            <a href="https://rs.school/js/"><img src="/rsschool-cv/source/icons/rs_school_js.svg" alt="RS-school" width="216" height="41" ></a>
+            <p class="year">2022</p>
+        </div>
+        <div class="gitacc">
+            <p class="githubmyacc">SiverianSerpent <a href="https://rs.school/js/"><img src="/rsschool-cv/source/icons/icons8-github.svg" alt="GitHub" width="50" height="50" ></a></p>
+        </div>
+    </footer>
 </body>
 </html>
